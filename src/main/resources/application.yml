@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    favicon:
+      enabled: false
+  thymeleaf:
+    mode: HTML
+logging:
+    level:
+        ROOT: INFO
+        de.arpablo: DEBUG
+    pattern:
+        console: "%-5level %d{yyyy-MM-dd HH:mm:ss} %logger{36} - %msg%n"
